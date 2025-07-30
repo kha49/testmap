@@ -1,6 +1,7 @@
 import { MapContainer, TileLayer } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css'; // Import CSS của Leaflet
 import './App.css';
+import './leaflet-provider'
 
 function App() {
   const stadiaAlidadeSatelliteUrl = 'https://tiles.stadiamaps.com/tiles/alidade_satellite/{z}/{x}/{y}{r}.jpg';
